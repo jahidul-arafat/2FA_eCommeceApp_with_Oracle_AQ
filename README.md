@@ -131,7 +131,7 @@ OUTPUT: Updated delivery status
 RETURN: Updated delivery status ("DELIVERED" or "FAILED")
 ```
 
-Creating a complete git repository for the application and providing detailed setup instructions involves several steps. Below is an outline of the repository structure, the code for the implementations, and the setup guidelines.
+Below is an outline of the repository structure, the code for the implementations, and the setup guidelines.
 
 ### Repository Structure
 
