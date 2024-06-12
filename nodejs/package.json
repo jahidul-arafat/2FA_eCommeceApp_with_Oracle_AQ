@@ -1,0 +1,14 @@
+{
+  "name": "otp-delivery-app",
+  "version": "1.0.0",
+  "description": "Node.js app for OTP-based delivery system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}
