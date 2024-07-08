@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="Java App Deployment Architecture">
+        <root>
+            <mxCell id="0" />
+            <mxCell id="1" parent="0" />
+            <mxCell id="2" value="Virtual Cloud Network (VCN)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxGeometry x="0" y="0" width="160" height="80" as="geometry" />
+            </mxCell>
+            <mxCell id="3" value="Subnets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                <mxGeometry x="20" y="40" width="120" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="4" value="Oracle Kubernetes Engine (OKE)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxGeometry x="40" y="70" width="180" height="60" as="geometry" />
+            </mxCell>
+            <mxCell id="5" value="Java Application Pods" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                <mxGeometry x="60" y="100" width="120" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="6" value="Load Balancer (LB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxGeometry x="220" y="70" width="120" height="60" as="geometry" />
+            </mxCell>
+            <mxCell id="7" value="Web Application Firewall (WAF)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                <mxGeometry x="240" y="100" width="80" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="8" value="Cassandra Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxGeometry x="380" y="70" width="160" height="60" as="geometry" />
+            </mxCell>
+        </root>
+    </diagram>
+</mxfile>
